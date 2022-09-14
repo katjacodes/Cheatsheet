@@ -1,9 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Sniglet: 400&display=swap|Cabin: 400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@600&display=swap');
+
+html {
+  background-color: #D8BFD8;
+  color: #5D0044;
+}
+
+h1 {
+  font-family: Sniglet, Helvetica, sans-serif;
+  font-size: 32px;
+}
+
+p {
+  font-family: Cabin, Cambria, serif;
+  font-size: 20px;
+}
+
 .styling {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Sniglet, Helvetica, sans-serif;
   border-collapse: separate;
   width: 66%;
   margin-right: auto;
   margin-left: auto;
+}
+
+th {
+  background-color: #5D0044;
+  color: #F2EBFD;
+  font-size: 28px;
+}
+
+td {
+  color: #5D0044;
+  font-size: 20px;
 }
 
 th:first-child { border-top-left-radius: 10px !important;}
@@ -13,17 +42,18 @@ tr:last-child td:last-child { border-bottom-right-radius: 10px !important;}
 tr:last-child td:first-child { border-bottom-left-radius: 10px !important;}
 
 td, th { border-style: solid; }
+
+span {  
+  font-family: 'Source Code Pro';
+  color: #00A283;
+}
   
 .styling td, .styling th {
   
   padding: 8px;
 }
   
-.styling tr:nth-child(even){background-color: #f2f2f2;}
+.styling tr:nth-child(even){background-color: #F2EBFD;}
   
-.styling tr:hover {background-color: rgb(200, 12, 128);}
+.styling tr:hover {background-color: #D65DB1;}
 .styling th { pointer-events: none;}
-
-td:first-child, th:first-child {
-   border-left: none;
-}
