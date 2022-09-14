@@ -1,5 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Sniglet: 400&display=swap|Cabin: 400&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Sniglet: 400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Source+Code+Pro:wght@300&display=swap');
 
 html {
   background-color: #D8BFD8;
@@ -17,7 +18,7 @@ p {
 }
 
 .styling {
-  font-family: Sniglet, Helvetica, sans-serif;
+  font-family: Cabin, Cambria, serif;
   border-collapse: separate;
   width: 66%;
   margin-right: auto;
@@ -28,6 +29,7 @@ th {
   background-color: #5D0044;
   color: #F2EBFD;
   font-size: 28px;
+  font-family: Sniglet, Helvetica, sans-serif;
 }
 
 td {
@@ -45,6 +47,7 @@ td, th { border-style: solid; }
 
 span {  
   font-family: 'Source Code Pro';
+  font-weight: 700;
   color: #00A283;
 }
   
