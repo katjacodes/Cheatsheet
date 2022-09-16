@@ -48,7 +48,8 @@ td, th { border-style: solid; }
 span {  
   font-family: 'Source Code Pro';
   font-weight: 700;
-  color: #00A283;
+  background-color: #00A283;
+  color: #F2EBFD;
 }
   
 .styling td, .styling th {
